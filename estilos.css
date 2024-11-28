@@ -1,0 +1,39 @@
+head{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background: lightblue 
+    
+}
+h1{
+    text-align: center;
+    background: rgb(207, 209, 230);
+}
+.perfil{
+    max-width: 200px;
+    border: 5px  solid;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(35, 138, 206);
+}
+h2{
+    color: rgb(0, 0, 0);
+}
+h3{
+    color: black;
+}
+input[type="text"], input[type="email"] {
+    min-width: 100px;
+    min-height: 30px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 2px rgb(100, 147, 218) solid
+}
+input[type="text"]:hover input[type="email"]:hover{
+    border: 2px cornflowerblue solid ;
+    box-shadow: 5px 5px 10px #555 ;
+}
+a:hover {
+    text-shadow: 5px 5px 10px;
+}
