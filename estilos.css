@@ -37,3 +37,14 @@ input[type="text"]:hover input[type="email"]:hover{
 a:hover {
     text-shadow: 5px 5px 10px;
 }
+
+.button { background-color: aquamarine; color: azure; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer;}
+.button:hover{
+    border: #15d4ca00 2px solid;
+    box-shadow: 5px 5px 5px #149ea8;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+table{
+    border-collapse: collapse; width: 100%; }  
+    td,th { border: 1px solid black; text-align: left; padding: 8px; } 
