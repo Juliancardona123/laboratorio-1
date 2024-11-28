@@ -3,7 +3,7 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
-body{
+.cuerpo{
     background: lightblue 
     
 }
@@ -48,3 +48,69 @@ a:hover {
 table{
     border-collapse: collapse; width: 100%; }  
     td,th { border: 1px solid black; text-align: left; padding: 8px; } 
+
+    /*estilo principal de css*/
+body{
+    background-color: rgb(31, 62, 69);
+}
+.encabezado{
+    background-color: aquamarine;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1rem;
+    grid-area: "encabezado";
+}
+.menu {
+    background-color: chocolate;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1rem;
+    grid-area: menu;
+}
+.contenido{
+    background-color: cornflowerblue;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1rem;
+    grid-area: "contenido";
+}
+.submenu{
+    background-color: rgb(165, 165, 196);
+    text-align: center;
+    border-radius: 10px;
+    padding: 1rem;
+    grid-area: "submenu";
+}
+.pie{
+    background-color: burlywood;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1rem;
+    grid-area: "pie de paguina";
+}
+/*CSS GRIP*/
+.page{
+display: grid;
+gap: 2px;
+grid-template:
+"encabezado" 100px
+"menu" 50px
+"contenido" auto
+"submenu" 100px
+"pie" 50px / auto;
+}
+@media (min-width: 768px){
+grid-template:
+"encabezado encabezado encabezado " 100px
+"menu menu menu" 50px
+"contenido contenido contenido" auto
+"submenu submenu submenu"
+"pie pie pie" 50px
+}
+@media (min-width: 1024px) {
+    grid-template:
+    "encabezado encabezado encabezado encabezado encabezado" 100px
+    "menu menu menu menu menu " auto
+    "pie pie pie pie pie" 50px
+    / 20% auto auto auto 20%;
+}

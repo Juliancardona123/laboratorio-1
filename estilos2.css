@@ -1,0 +1,22 @@
+/*estilo principal de css*/
+body{
+    background-color: blue;
+}
+header{
+    background-color: aquamarine;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1rem;
+}
+nav {
+    background-color: chocolate;
+}
+main{
+    background-color: cornflowerblue;
+}
+aside{
+    background-color: rgb(165, 165, 196);
+}
+footer{
+    background-color: burlywood;
+}
